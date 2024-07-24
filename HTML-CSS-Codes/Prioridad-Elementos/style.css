@@ -1,0 +1,35 @@
+#titulo {
+  color: brown;
+}
+
+.texto-azul {
+  color: blue;
+}
+/*Los id tienen prioridad sobre las clases*/
+.texto-morado {
+  color: blueviolet;
+}
+/*Las ultimas etiquetas, clases, id son las que tienen prioridad al momento de aplicar estilos a un mismo elemento*/
+
+a {
+  text-decoration: purple wavy underline; /*Color, forma y estilo del subrayado*/
+}
+
+#enlace-principal {
+  color: orangered;
+  text-decoration: purple wavy underline;
+}
+.sin-subrayado {
+  color: blue;
+  text-decoration: none;
+}
+/*Los id tienen prioridad sobre las clases*/
+/*Una clase u id tienen prioridad en cuanto a la etiquetas*/
+
+#texto {
+  color: gold !important; /*Para sumarle importancia o prioridad a algun estilo, se necesito indicarlo con "!important"*/
+}
+
+.parrafo {
+  color: red;
+}

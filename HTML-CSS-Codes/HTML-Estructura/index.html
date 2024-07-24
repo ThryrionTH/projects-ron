@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- <style>
+      h3 {
+        color: blueviolet;
+      }
+
+      p {
+        color: brown;
+      }
+
+      li {
+        color: rgb(13, 95, 133);
+      }
+    </style>  Forma de escribir CSS dentro de bloque de estilo-->
+    <title>Aplicación de Gatos</title>
+  </head>
+  <body>
+  <!-- Diferentes estilos de encabezados
+   <h1> - <h2> - <h3> - <h4> - <h5> - <h6> -->
+    <h2 id="titulo-principal"> AppDeGatos</h2> <!--style="color: rgb(42, 122, 17)" Forma de escribir CSS en linea de codigo-->
+    <main> <!--Cuerpo importantes de la pagina web -->
+      <h3>Imágenes de Gatos:</h3>
+      <!--Enlace a otra pagina con creación de una ventana nueva en blanco con (target="_blank") y (rel="noopener noreferrer)" para no recargar la pagina principal y exponer los datos-->
+      <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">imagenes de gato</a></p>
+
+      <!--Enlaces internos en la pagina se les debe agregar (#) acompañado del "id" del elemento-->
+      <a href="#parrafo-1">Párrafo 1</a>
+      <a href="#parrafo-2">Párrafo 2</a>
+      <a href="#parrafo-3">Párrafo 3</a>
+      <a href="#parrafo-4">Párrafo 4</a>
+      
+      <!--Enlaces en imagenes-->
+      <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><img id="img-1" class="img-pag" src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+      <a href="#" target="_blank" rel="noopener noreferrer"><p>Enlace muerto</p></a>
+
+      <hr> <!--Etiqueta (<hr>) se usa para agregar una linea horizontal que pueda divisar algun objeto-->
+      <div class="contenedor-listas">
+        <div id="abreviar-hexa">
+          <p>Colores Hexadecimales Abreviados</p>
+        </div>
+        <h3>Listas de Gatos</h3>
+        <p>Cosas que los gatos <em>aman</em>:</p> <!--Etiqueta (<em>) se usa para poner algun texto o palabra (cursiva)-->
+        <!--Listas no ordenadas-->
+        <ul id="lista-aman" class="list">
+          <li>Menta gatuna</li>
+          <li>Apuntadores láser</li>
+          <li><s>Lasaña</s></li> <!--Etiqueta (<s>) se usa para subrayar algun texto o palabra (tachado)-->
+        </ul>
+        <img id="img-2" class="img-pag" src="img/lasagna.jpeg" alt="Un plato de lasagna.">
+  
+        <p>Cosas que los gatos <strong>odian</strong>:</p> <!--Etiqueta (<strong>) se usa para resaltar algun texto o palabra (negrita)-->
+        <!--Listas ordenadas-->
+        <ol id="lista-odian" class="list">
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+     
+      <img id="img-3" class="img-pag" src="img/gato.jpg" alt="Un gato apoyado en madera"> 
+
+      <h3 id="parrafo-1">Párrafo 1</h3>
+
+      <p>Ut finibus molestie risus, ac elementum neque tristique ut. Vestibulum id nisi vitae dolor pellentesque sagittis nec in nisi. Suspendisse dignissim convallis imperdiet. Duis sit amet massa elit. Nulla urna ligula, sagittis nec semper id, hendrerit feugiat felis. Curabitur feugiat, ipsum sit amet dictum feugiat, leo nisi commodo odio, vitae fermentum risus arcu ut leo. Aliquam consequat sodales convallis. Fusce interdum lectus ac pulvinar facilisis. Fusce dapibus consequat justo, sed blandit arcu porta vitae. Maecenas elementum, tortor ac faucibus hendrerit, elit elit blandit tellus, auctor venenatis nunc purus non nisi. Sed faucibus mollis egestas. Curabitur molestie erat velit, eget mattis velit sagittis at. Proin nec libero tellus. Mauris finibus lectus purus. Aenean sed sagittis ex. Fusce a malesuada magna, vitae imperdiet lorem.</p>
+
+      <h3 id="parrafo-2">Párrafo 2</h3>
+
+      <p>Aenean vel eleifend nisi, vitae aliquet arcu. Aenean suscipit tortor leo, nec consectetur elit dignissim eu. Fusce lacinia ante est. Duis nec leo at nisi tristique iaculis. Donec eu orci est. Maecenas venenatis venenatis fermentum. Mauris justo elit, gravida sed magna non, euismod hendrerit metus. Vestibulum laoreet nec mi ut ultrices. Maecenas non dolor vitae ligula dapibus volutpat id eu dui. Suspendisse placerat, erat sed faucibus blandit, ipsum risus rutrum metus, eu laoreet urna mi dapibus velit. Praesent ultricies fermentum metus, nec vehicula risus aliquam in.</p>
+      
+      <h3 id="parrafo-3">Párrafo 3</h3>
+
+      <p>Nunc non aliquet lectus. Donec tempus sapien magna. Maecenas viverra elit nec ullamcorper feugiat. In elementum, ante in viverra semper, diam felis auctor metus, vitae varius velit nulla eget lectus. In faucibus enim elit, at euismod ipsum dapibus eu. Sed ac semper nibh. Sed dictum accumsan enim id finibus. Fusce venenatis suscipit odio eget vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nam condimentum vulputate est, ut consectetur dui malesuada non. Aliquam in dolor vitae libero tempus tempor vitae nec mauris. Proin facilisis magna laoreet, laoreet lectus sed, varius felis. Nunc a consectetur dolor, eu pulvinar orci.</p>
+      
+      <h3 id="parrafo-4">Párrafo 4</h3>
+
+      <p>In porttitor lectus dapibus bibendum scelerisque. Sed porta, eros sit amet pretium viverra, leo nulla imperdiet nisl, ac imperdiet metus eros sit amet orci. Donec purus dui, mattis a enim ornare, ornare pellentesque enim. Praesent quis congue ante, quis molestie leo. Aenean lorem sapien, malesuada placerat diam ac, hendrerit aliquam ipsum. Donec luctus commodo nisi, sed rhoncus massa dictum ac. Vivamus iaculis, purus iaculis posuere suscipit, lorem sem egestas sem, id laoreet quam tellus quis nunc. Donec convallis dui quis cursus laoreet. Curabitur sit amet metus tristique, hendrerit turpis vitae, sollicitudin lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+      <form action="/enviar-respuesta">
+        <!--Botones de radio-->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label><br>
+
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label><br>
+
+        <!--Checkbox-->
+        <label for="carinoso">
+          <input id="carinoso" type="checkbox" value="carinoso"  name="caracteristicas" checked>Cariñoso
+        </label><br> <!--Atributo (checked) para el input cuando se desea agregar el valor predeterminado-->
+        
+        <label for="perezoso">
+          <input id="perezoso" type="checkbox" value="perezoso"  name="caracteristicas">Perezoso
+        </label><br>
+        
+        <label for="energico">
+          <input id="energico" type="checkbox" value="energico" name="caracteristicas">Enérgico
+        </label><br>
+
+        <!--Inputs de diferentes tipos-->
+        <input type="date">
+        <input type="number" placeholder="Número cualquiera">
+        <input type="text" placeholder="URL de la foto de tu gato" required> <!--(required) obliga al usuario a completar el input obligatorio-->
+        <input type="time">
+
+        <!--Botones-->
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></small></p> <!--Etiqueta (small) permite escribir texto mas pequeño-->
+    </footer>
+  </body>
+</html>

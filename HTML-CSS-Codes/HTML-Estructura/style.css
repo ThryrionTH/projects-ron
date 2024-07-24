@@ -1,0 +1,121 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+#titulo-principal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 60px;
+  color: orangered;
+}
+
+body {
+  background-color: yellowgreen;
+  color: chocolate;
+}
+/*h3,
+li {
+  font-size: 25px;
+  color: blueviolet;
+} */
+ /*Tipos de letras de Google Fonts*/
+p {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: brown;
+}
+
+a {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*Selector de tipo atributo*/
+img[alt] {
+  border-radius: 50%;
+}
+
+input[type="radio"] {
+  margin: 25px;
+}
+
+input[type="checkbox"] {
+  margin: 8px;
+}
+
+a[href="https://www.freecodecamp.org/"] {
+  color: green;
+  text-decoration: none; /*Quitar decoración del link*/
+  font-weight: bold; /*Formato de negrita a la fuente*/
+}
+
+/*.img-pag {
+  width: 200px;
+  border-width: 10px;
+  border-radius: 20px;
+  border-color: blueviolet;
+  border-style: inset dashed dotted double;
+}*/
+
+#img-1 {
+  border-color: blueviolet;
+  border-style: ridge;
+  border-radius: 75%;
+}
+
+#lista-aman {
+  font-size: 15px;
+  color: #32a854;
+}
+
+#lista-odian {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Colores rgb("", "", "") de 0 a 255*/
+/*Colores transparentes rgba("", "", "", "") de 0 a 255 y el ultimo de 0 a 1*/
+#img-2 {
+  border-color: rgb(0, 255, 55);
+  border-style: inset dashed dotted double;
+}
+
+#img-3 {
+  border-color: rgb(180, 42, 106);
+  border-style: outset solid groove none;
+  /*border-radius: 15%;*/
+  border-width: 7px;
+}
+
+/*Hexadecimal Codes - Colors*/
+/* 0-9 A-F*/
+/*  00   00     00*/
+/* Red  Green  Blue*/
+/* #00 00 00 --> Black*/
+/* #FF FF FF -->White*/
+/*Para generar colores con hexadecimales, buscar la herramienta "Colour Picker*/
+.contenedor-listas {
+  background-color: #eba234;
+}
+
+/*Abreviar Hexadecimal Codes - Colors*/
+/* #000 --> #000000*/
+/* #fff --> #ffffff*/
+/* #f0f --> #ff00ff*/
+/* #0f0 --> #00ff00*/
+/* Se abrevian en 3 digitos cuando sus pares de R,G,B sean iguales*/
+#abreviar-hexa {
+  /*background-color: #00ffff;
+  background-color: #0ff;
+  background-color: #ff0000;*/
+  background-color: #f00;
+}
+
+/* .list {
+  color: chocolate;
+} */

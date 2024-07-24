@@ -1,0 +1,12 @@
+div {
+  background-color: red;
+}
+
+img {
+  margin: 25px;
+  padding: 25px;
+  background-color: yellow;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
